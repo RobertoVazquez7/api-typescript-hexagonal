@@ -5,13 +5,15 @@ import bodyParser from "body-parser";
 import express from "express";
 
 import { config } from "./config";
-import { healthRouter } from "./health/health-router";
+import { plantRouter } from "./infrastructure/plant-router";
+//import { healthRouter } from "./health/health-router";
 
 function boostrap() {
   const app = express();
 
   app.use(bodyParser.json());
-  app.use("/health", healthRouter);
+  //app.use("/health", healthRouter);
+  app.use("/plant", plantRouter);
 
   const { port } = config.server;
 
