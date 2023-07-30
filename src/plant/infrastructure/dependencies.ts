@@ -1,9 +1,9 @@
 import PlantCrud from "../aplication/plant-crud";
-import DatabasePlant from "./database-plant-repository";
 //import PlantRepository from "../domain/plant-repository";
 //import DatabasePlant from "./database-plant-repository";
 //import { Database } from "./db-config";
-import PlantController from "./plant-controller";
+import PlantController from "./controllers/plant-controller";
+import DatabasePlant from "./database-plant-repository";
 
 //const database = new Database();
 //const pool = database.getPool();

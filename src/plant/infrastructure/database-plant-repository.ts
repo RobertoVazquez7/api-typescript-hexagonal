@@ -1,8 +1,8 @@
 //import { json, row } from "body-parser";
 //import { Pool } from "pg";
+import connection from "../../database/db-config";
 import { Plant } from "../domain/plant";
 import PlantRepository from "../domain/plant-repository";
-import connection from "./db-config";
 //import { connect } from "./db-config";
 //import { Request, Response, response } from "express";
 //import { connect } from "./db-config";

@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 
-import PlantCrud from "../aplication/plant-crud";
-import { Plant } from "../domain/plant";
+import PlantCrud from "../../aplication/plant-crud";
+import { Plant } from "../../domain/plant";
 
 // aqui se mandan a llamar las funciones CRUD
 class PlantController {
